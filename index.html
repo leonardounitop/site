@@ -20,30 +20,18 @@
 <body>
     <div class="bg-main">
 
-        <header>
-
+        <header class="header-bg">
             <div class="container header">
-                <div>
-                    <a href="">
-                        <img src="./icons/logoM.svg" alt="">
-                    </a>
-                </div>
-
-
-                <nav>
-                    <ul class="links-menu">
-                        <a href="">
-                            <li>Serviços</li>
-                        </a>
-                        <a href="">
-                            <li>Projetos</li>
-                        </a>
-                        <a href="">
-                            <li>Sobre</li>
-                        </a>
-                        <a href="">
-                            <li>Contato</li>
-                        </a>
+                <img class="logo" src="icons/logoM.svg" alt="Logo da ramo ambiental" width="170" height="auto">
+                <nav id="nav" aria-label="primaria" class="menu">
+                    <button class="cor-p4" id="btn-mobile" aria-expanded="false" aria-controls="menu"
+                        aria-haspopup="true" aria-label="Mostrar opções de navegação">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="header-menu font-2-l" data="menu" id="menu" role="menu">
+                        <li role="menuitem"><a href="#servicos">Serviços</a></li>
+                        <li role="menuitem"><a href="#sobre">Sobre</a></li>
+                        <li role="menuitem"><a href="#contato">Contato</a></li>
                     </ul>
                 </nav>
             </div>
@@ -64,6 +52,7 @@
 
     </div>
 
+    <script type="module" src="script.js"></script>
 </body>
 
 </html>
