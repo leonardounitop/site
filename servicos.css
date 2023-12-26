@@ -55,7 +55,7 @@ body {
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #141E30;
-    padding: 12px 24px;
+    padding: 14px 28px;
     clip-path: polygon(calc(85%) 0, 100% 100%, 0 100%, 0 0);
 }
 
