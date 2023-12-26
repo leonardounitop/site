@@ -42,12 +42,10 @@ body {
     color: #f0f9ff;
 }
 
-.details p {
-    line-height: 1.4;
-}
 
 .details h3 {
     display: inline-block;
+    font-size: 1.25rem;
     background: #ECE9E6;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
@@ -60,6 +58,10 @@ body {
 }
 
 
+.details p {
+    line-height: 1.4;
+    font-size: 1.125rem;
+}
 
 .container-img img {
     width: 100%;
