@@ -75,6 +75,7 @@ body {
     background: linear-gradient(to right, #243B55, #141E30);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     clip-path: polygon(calc(85%) 0, 100% 100%, 0 100%, 0 0);
+    font-weight: bold;
     padding: 20px 40px;
     color: #f0f9ff;
     margin-bottom: 20px;
@@ -82,6 +83,8 @@ body {
 }
 
 .paragrafo-servicos {
+    font-weight: bold;
+    color: #141E30;
     font-size: 2rem;
     max-width: 65ch;
     margin-bottom: 40px;
