@@ -73,7 +73,7 @@ a {
     display: inline-block;
     position: relative;
     font-weight: 600;
-    color: var(--cor-primaria);
+    color: white;
 }
 
 .header-menu a:hover {
@@ -85,7 +85,7 @@ a {
     display: block;
     height: 2px;
     width: 0%;
-    background: var(--cor-primaria);
+    background: white;
     margin-top: 4px;
     transition: 0.3s;
     position: absolute;
@@ -169,7 +169,7 @@ a {
     position: relative;
     font-size: inherit;
     font-family: inherit;
-    color: var(--cor-primaria);
+    color: #141E30;
     font-size: 1.5rem;
     text-transform: uppercase;
     padding: 0.5em 1em;
@@ -230,7 +230,12 @@ a {
     .header-menu a {
         color: #fff;
         border-radius: 4px;
-        background: var(--cor-primaria);
+        background: #141E30;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         padding: 12px 16px;
     }
 
@@ -257,7 +262,12 @@ a {
         width: 100%;
         top: 110px;
         right: 0;
-        background: var(--cor-primaria);
+        background: #141E30;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         height: 0;
         transition: 0.6s;
         z-index: 1000;
