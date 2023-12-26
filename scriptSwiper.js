@@ -15,13 +15,6 @@ export default function initSwiper() {
         spaceBetween: 10,
         loop: true,
       },
-      // when window width is >= 500px
-      // 500: {
-      //   slidesPerView: 4,
-      //   spaceBetween: 20,
-      // },
-
-      // when window width is >= 1200px
       1200: {
         slidesPerView: 3,
         spaceBetween: 20,
@@ -30,3 +23,5 @@ export default function initSwiper() {
     },
   });
 }
+
+initSwiper();

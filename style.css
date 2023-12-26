@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria: #0c4a6e
+    --cor-primaria: #243B55
 }
 
 * {
@@ -97,6 +97,7 @@ a {
 .bg-main {
     background: url(./img/bg-azul.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .titulo {
@@ -380,6 +381,7 @@ a {
 
     .bg-main {
         background: url(./img/bg-azul-mobile.jpg) no-repeat center;
+        background-attachment: initial;
     }
 }
 
