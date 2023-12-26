@@ -104,7 +104,6 @@ body {
 
 
 .swiper-wrapper {
-    transition-timing-function: linear;
     align-items: center;
 }
 
