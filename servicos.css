@@ -17,6 +17,8 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 20px;
     gap: 40px;
+
+
 }
 
 
@@ -31,7 +33,6 @@ body {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.18);
 }
 
-
 .container-img {
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -41,7 +42,6 @@ body {
     padding: 20px 10px;
     color: #f0f9ff;
 }
-
 
 .details h3 {
     display: inline-block;
@@ -57,16 +57,26 @@ body {
     clip-path: polygon(calc(85%) 0, 100% 100%, 0 100%, 0 0);
 }
 
-
 .details p {
     line-height: 1.4;
     font-size: 1.125rem;
 }
 
+.container-img {
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
 .container-img img {
     width: 100%;
     display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
     border-radius: 20px 20px 0 0;
+}
+
+.card:hover .container-img img {
+    transform: scale(1.2);
 }
 
 .titulo-servicos {
