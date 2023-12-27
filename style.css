@@ -322,6 +322,12 @@ a {
 }
 
 
+.conteudo-right {
+    padding-left: 20px;
+}
+
+
+
 @media (max-width: 1200px) {
     .header a::after {
         display: none;
@@ -453,9 +459,6 @@ a {
         padding: 8px 16px;
     }
 
-    /* header {
-        background: #fff;
-    } */
 
     .header {
         padding: 20px;
@@ -468,6 +471,28 @@ a {
     .paragrafo-main {
         font-size: 0.875rem;
         margin-top: 10px;
+    }
+
+
+    .container-lista {
+        grid-template-columns: 1fr;
+    }
+
+    .img-lista {
+        margin-top: 20px;
+        order: 1;
+    }
+
+    .conteudo-gestao ul {
+        font-size: 1rem;
+    }
+
+    .titulo-lista {
+        font-size: 1.5rem;
+    }
+
+    .conteudo-right {
+        padding-left: 0px;
     }
 
 }
