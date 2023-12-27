@@ -1,0 +1,42 @@
+.contato {
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.titulo-contato {
+    background: linear-gradient(to right, #243B55, #141E30);
+    color: white;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: inline-block;
+    padding: 15px 30px;
+    clip-path: polygon(85% 0, 100% 100%, 0 100%, 0 0) !important;
+    font-size: 3rem;
+    z-index: 1;
+}
+
+
+.conteudo-contato p {
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+
+.conteudo-contato {
+    padding: 20px;
+}
+
+.endereco {
+    margin-top: 20px;
+}
+
+@media(max-width: 500px) {
+    .contato {
+        grid-template-columns: 1fr;
+    }
+}

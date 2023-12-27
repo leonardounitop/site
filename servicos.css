@@ -161,6 +161,18 @@ body {
 }
 
 
+
+/* 
+.container-truck::before {
+    content: "";
+    height: 25px;
+    width: 30px;
+    background: url(./icons/truck.svg);
+    display: block;
+    place-self: center;
+} */
+
+
 @media(max-width: 500px) {
 
     .titulo-servicos {
