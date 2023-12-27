@@ -124,6 +124,34 @@ body {
 }
 
 
+.contador {
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+    color: #f0f9ff;
+}
+
+.contador {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contador span {
+    font-family: monospace;
+    font-size: 3.5rem;
+}
+
+.container-numero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media(max-width: 500px) {
 
     .titulo-servicos {
@@ -137,6 +165,20 @@ body {
     .cards {
         padding: 0;
         gap: 20px;
+    }
+
+    .contador {
+        padding-bottom: 40px;
+        font-size: 1.2rem;
+    }
+
+    .contador {
+        gap: 20px;
+    }
+
+
+    .contador span {
+        font-size: 2.5rem;
     }
 
 }
