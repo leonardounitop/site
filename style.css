@@ -94,11 +94,19 @@ a {
     display: none;
 }
 
-.bg-main {
+.bg-main,
+.bg-jornada {
     background: url(./img/bg-azul.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
+
+.bg-jornada {
+    background: url(./img/bg-jornada.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 .titulo {
     color: white;
@@ -116,6 +124,90 @@ a {
     bottom: 45px;
     right: -20px;
     z-index: 99999;
+}
+
+.bg-gestao {
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+}
+
+.conteudo-gestao {
+    padding: 20px;
+}
+
+.conteudo-gestao h1 {
+    clip-path: polygon(85% 0, 100% 100%, 0 100%, 0 0);
+    background: white;
+    color: #141E30;
+    font-size: 3.5rem;
+}
+
+
+.conteudo-gestao ul {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.conteudo-gestao li::before {
+    content: "";
+    display: block;
+}
+
+
+.conteudo-gestao li+li {
+    margin-top: 12px;
+}
+
+.titulo-lista {
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.titulo-lista::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 20%;
+    background: #fff;
+    margin-top: 12px;
+}
+
+
+.container-lista {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-lista li::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(./icons/check.svg) no-repeat center;
+    background-size: cover;
+}
+
+.container-lista li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.container-lista img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+
+.lista {
+    margin-top: 60px;
 }
 
 
@@ -220,7 +312,14 @@ a {
     animation: animaDown 2s ease-in;
 }
 
+.conteudo-gestao {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.header-interno {
+    justify-content: center;
+}
 
 
 @media (max-width: 1200px) {
@@ -243,7 +342,6 @@ a {
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         padding: 12px 16px;
     }
-
 
     .main {
         padding: 40px 20px;
@@ -301,7 +399,6 @@ a {
         font-size: 2rem;
     }
 
-
     #btn-mobile {
         display: flex;
         padding: 0.5rem 1rem;
@@ -346,7 +443,6 @@ a {
         top: -10px;
     }
 
-
     .label-titulo {
         font-size: 0.875rem;
     }
@@ -385,6 +481,10 @@ a {
     .bg-main {
         background: url(./img/bg-azul-mobile.jpg) no-repeat center;
         background-attachment: initial;
+    }
+
+    .conteudo-gestao h1 {
+        font-size: 1.8rem;
     }
 }
 

@@ -102,12 +102,10 @@
     text-align: center;
 }
 
-
 @media(max-width: 500px) {
     .contato {
         grid-template-columns: 1fr;
     }
-
 
     .titulo-contato {
         padding: 12px 24px;
@@ -117,7 +115,6 @@
     .conteudo-contato p {
         font-size: 1.125rem;
     }
-
 
     .endereco ul {
         background: #243B55;
