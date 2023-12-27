@@ -1,6 +1,4 @@
 .contato {
-
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -90,6 +88,18 @@
 
 .horario.aberto::after {
     background: #0f0;
+}
+
+
+.footer {
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 
