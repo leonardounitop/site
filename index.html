@@ -177,11 +177,11 @@
         </div>
     </section>
 
-    <section class="contato ">
+    <section class="contato container">
         <div class="mapa">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3842.9390466110744!2d-56.105418688108955!3d-15.594905184955428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db191d0ca5d71%3A0x755e252a5037799e!2sMirante%20do%20Coxim%20Centro%20Empresarial!5e0!3m2!1sen!2sbr!4v1703687605359!5m2!1sen!2sbr"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="conteudo-contato">
@@ -192,8 +192,17 @@
                     <p>Av. Isaac Póvoas, 901 - Goiabeiras, Cuiabá - MT, 78032-015</p>
 
                     <ul>
-                        <li>Telefone</li>
-                        <li>Email</li>
+                        <li><a href="tel:+5565981581111" class="tel-link link-contato">+55 (65) 981581111</a></li>
+                        <li><a href="mailto:suporte@unitopconsultoria.com.br"
+                                class="link-contato email-link">suporte@unitopconsultoria.com.br</a></li>
+                        <li><a href="https://api.whatsapp.com/send/?phone=5565981581111"
+                                class="link-contato whats-link">Clique
+                                aqui e converse
+                                conosco pelo
+                                WhatsApp!</a></li>
+
+                        <li class="link-contato horario-link horario" data-semana="1,2,3,4,5" data-horario="8,18">
+                            08-18h de segunda à sexta</li>
                     </ul>
                 </div>
             </div>
@@ -202,29 +211,17 @@
     </section>
 
 
-    <script type="module">
-        import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.2/dist/web.js'
+    <a class=" whats-icon" href="https://api.whatsapp.com/send?l=pt&amp;phone=5565981581111"><img
+            src="./icons/WhatsApp-Logo.wine.svg" data-selector="img"
+            alt="Icone clicável para contato no whatsapp. Telefone: +55 65 981581111" width="120" height="100"></a>
 
-        Typebot.initBubble({
-            typebot: "lead-generation-sxuqutz",
-            theme: { chatWindow: { backgroundColor: "#fff" } },
-            previewMessage: {
-                message: 'Vamos conversar!',
-                autoShowDelay: 3000,
-            },
-            theme: {
-                button: { backgroundColor: '#0042DA', iconColor: '#FFFFFF' },
-                previewMessage: { backgroundColor: '#ffffff', textColor: 'black' },
-                chatWindow: { backgroundColor: '#ffffff' },
-            },
-        });
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="scriptSwiper.js"></script>
     <script type="module" src="script.js"></script>
     <script type="module" src="anima-numero.js"></script>
     <script type="module" src="anima-scroll.js"></script>
+    <script type="module" src="funcionamento.js"></script>
 </body>
 
 </html>

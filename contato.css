@@ -1,9 +1,5 @@
 .contato {
-    background: #ECE9E6;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,8 +19,9 @@
 
 
 .conteudo-contato p {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 1.2;
+    font-weight: bold;
 }
 
 .conteudo-contato {
@@ -35,8 +32,88 @@
     margin-top: 20px;
 }
 
+.endereco ul {
+    background: #243B55;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.endereco li {
+    font-weight: bold;
+}
+
+.endereco li+li {
+    margin-top: 8px;
+}
+
+
+.link-contato {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link-contato::before {
+    content: "";
+    display: block;
+    background: url(./icons/telefone.svg) no-repeat center;
+    width: 20px;
+    height: 20px;
+    left: -20px;
+}
+
+.whats-link::before {
+    background: url(./icons/whatsapp-icon.svg) no-repeat center;
+}
+
+.email-link::before {
+    background: url(./icons/email.svg) no-repeat center;
+}
+
+.horario-link::before {
+    background: url(./icons/horario.svg) no-repeat center;
+}
+
+
+.horario::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: red;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.horario.aberto::after {
+    background: #0f0;
+}
+
+
 @media(max-width: 500px) {
     .contato {
         grid-template-columns: 1fr;
     }
+
+
+    .titulo-contato {
+        padding: 12px 24px;
+        font-size: 1.5rem;
+    }
+
+    .conteudo-contato p {
+        font-size: 1.125rem;
+    }
+
+
+    .endereco ul {
+        background: #243B55;
+        padding: 20px;
+        margin-top: 20px;
+        color: white;
+        font-size: 0.875rem;
+    }
+
 }

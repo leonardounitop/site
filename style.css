@@ -109,6 +109,15 @@ a {
 }
 
 
+.whats-icon {
+    height: 80px;
+    width: 120px;
+    position: fixed;
+    bottom: 45px;
+    right: -20px;
+    z-index: 99999;
+}
+
 
 @keyframes animaDown {
     from {
@@ -368,12 +377,6 @@ a {
 }
 
 
-
-
-
-
-
-
 @media (max-width: 500px) {
     .header-menu {
         justify-content: center;
@@ -384,9 +387,6 @@ a {
         background-attachment: initial;
     }
 }
-
-
-
 
 .estilo-amarelo {
     color: #fde047;
