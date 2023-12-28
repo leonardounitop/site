@@ -3,7 +3,7 @@
 }
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
 
 html,
@@ -94,8 +94,7 @@ a {
     display: none;
 }
 
-.bg-main,
-.bg-jornada {
+.bg-main {
     background: url(./img/bg-azul.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -103,6 +102,12 @@ a {
 
 .bg-jornada {
     background: url(./img/bg-jornada.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-sistema {
+    background: url(./img/bg-sistema.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -202,7 +207,7 @@ a {
 
 .container-lista img {
     width: 100%;
-    border-radius: 4px;
+    height: 100%;
 }
 
 
@@ -258,6 +263,10 @@ a {
     justify-content: center;
 }
 
+.main.main-jornada {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 
 .cta {
@@ -325,6 +334,7 @@ a {
 .conteudo-right {
     padding-left: 20px;
 }
+
 
 
 
@@ -510,6 +520,11 @@ a {
 
     .conteudo-gestao h1 {
         font-size: 1.8rem;
+    }
+
+    .main.main-jornada {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
