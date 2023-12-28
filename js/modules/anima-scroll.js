@@ -20,5 +20,3 @@ export default function initAnimaScroll() {
     window.addEventListener('scroll', animaScroll, { passive: true });
   }
 }
-
-initAnimaScroll();

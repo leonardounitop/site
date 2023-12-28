@@ -95,25 +95,25 @@ a {
 }
 
 .bg-main {
-    background: url(./img/bg-azul.jpg) no-repeat center;
+    background: url(../img/bg-azul.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .bg-jornada {
-    background: url(./img/bg-jornada.jpg) no-repeat center;
+    background: url(../img/bg-jornada.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .bg-sistema {
-    background: url(./img/bg-sistema.jpg) no-repeat center;
+    background: url(../img/bg-sistema.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .bg-telemetria {
-    background: url(./img/bg-telemetria.jpg) no-repeat center;
+    background: url(../img/bg-telemetria.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -201,7 +201,7 @@ a {
     display: block;
     width: 20px;
     height: 20px;
-    background: url(./icons/check.svg) no-repeat center;
+    background: url(../icons/check.svg) no-repeat center;
     background-size: cover;
 }
 
@@ -520,7 +520,7 @@ a {
     }
 
     .bg-main {
-        background: url(./img/bg-azul-mobile.jpg) no-repeat center;
+        background: url(../img/bg-azul-mobile.jpg) no-repeat center;
         background-attachment: initial;
     }
 
