@@ -541,6 +541,24 @@ a {
     .bg-sobre {
         background-attachment: initial;
     }
+
+
+    .bg-main {
+        background-attachment: initial;
+    }
+
+    .bg-jornada {
+
+        background-attachment: initial;
+    }
+
+    .bg-sistema {
+        background-attachment: initial;
+    }
+
+
+
+
 }
 
 .estilo-amarelo {

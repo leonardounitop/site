@@ -12,8 +12,6 @@
     font-size: 3rem;
 }
 
-
-
 .sobre h2::after {
     content: "";
     display: block;
