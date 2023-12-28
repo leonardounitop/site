@@ -101,6 +101,14 @@
 }
 
 
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
 .footer {
     background: #141E30;
     /* fallback for old browsers */

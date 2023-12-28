@@ -6,6 +6,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body,
 h1,
@@ -345,8 +349,6 @@ a {
 .conteudo-right {
     padding-left: 20px;
 }
-
-
 
 
 @media (max-width: 1200px) {
