@@ -32,6 +32,11 @@ a {
     color: inherit;
 }
 
+.bg-loader img {
+    display: block;
+
+}
+
 .paragrafo-main {
     max-width: 75ch;
     color: white;
