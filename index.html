@@ -236,13 +236,25 @@
     </footer>
 
 
+
+    <div class="bg-loader ativo">
+        <span class="loader"></span>
+    </div>
+
+
     <a class=" whats-icon" href="https://api.whatsapp.com/send?l=pt&amp;phone=5565981581111"><img
             src="./icons/WhatsApp-Logo.wine.svg" data-selector="img"
             alt="Icone clicável para contato no whatsapp. Telefone: +55 65 981581111" width="120" height="100"></a>
 
 
+    <script>
+        window.addEventListener("load", (event) => {
+            document.querySelector('.bg-loader').classList.remove('ativo')
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="./js/script.js"></script>
+
 
 </body>
 
