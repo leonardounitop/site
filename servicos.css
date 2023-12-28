@@ -115,9 +115,7 @@ body {
 
 .swiper-wrapper {
     align-items: center;
-}
-
-.swiper-wrapper {
+    pointer-events: none;
     -webkit-transition-timing-function: linear !important;
     -o-transition-timing-function: linear !important;
     transition-timing-function: linear !important;
