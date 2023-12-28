@@ -10,7 +10,6 @@ export default function initAnimaScroll() {
         const isSectionVisible = sectionTop - windowMetade < 0;
         if (isSectionVisible) {
           item.classList.add('ativo');
-          console.log('visivel');
         }
       });
     }
