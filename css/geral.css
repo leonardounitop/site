@@ -482,7 +482,6 @@ a {
         padding: 8px 16px;
     }
 
-
     .header {
         padding: 20px;
     }
@@ -495,7 +494,6 @@ a {
         font-size: 0.875rem;
         margin-top: 10px;
     }
-
 
     .container-lista {
         grid-template-columns: 1fr;
@@ -543,7 +541,6 @@ a {
     .bg-sobre {
         background-attachment: initial;
     }
-
 
     .bg-main {
         background-attachment: initial;
