@@ -1,0 +1,38 @@
+.sobre {
+    color: white;
+    margin-top: 40px;
+
+
+}
+
+
+.sobre h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.sobre p {
+    font-size: 1.5rem;
+}
+
+
+.slide-parceiros img {
+    width: 200px;
+}
+
+
+@media (max-width:500px) {
+
+    .slide-parceiros img {
+        width: 100px;
+    }
+
+    .sobre h2 {
+        font-size: 1.5rem;
+    }
+
+    .sobre p {
+        font-size: 1.125rem;
+    }
+}
