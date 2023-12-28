@@ -41,6 +41,11 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     margin-top: 15px;
+    /* animation: animaUp 1.2s ease-in; */
+}
+
+
+.paragrafo-main.ativo {
     animation: animaUp 1.2s ease-in;
 }
 
@@ -133,7 +138,13 @@ a {
     text-transform: uppercase;
     max-width: 25ch;
     font-size: 4.875rem;
+    /* animation: animaDown 1.2s ease-in; */
+}
+
+
+.titulo.ativo {
     animation: animaDown 1.2s ease-in;
+
 }
 
 
@@ -333,7 +344,12 @@ a {
     text-transform: uppercase;
     color: white;
     letter-spacing: 0.1rem;
+    /* animation: animaDown 2s ease-in; */
+}
+
+.label-titulo.ativo {
     animation: animaDown 2s ease-in;
+
 }
 
 .conteudo-gestao {

@@ -249,7 +249,10 @@
 
     <script>
         window.addEventListener("load", (event) => {
-            document.querySelector('.bg-loader').classList.remove('ativo')
+            document.querySelector('.bg-loader').remove();
+            document.querySelector('.titulo').classList.add('ativo');
+            document.querySelector('.label-titulo').classList.add('ativo');
+            document.querySelector('.paragrafo-main').classList.add('ativo');
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
