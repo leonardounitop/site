@@ -112,6 +112,12 @@ a {
     background-attachment: fixed;
 }
 
+.bg-telemetria {
+    background: url(./img/bg-telemetria.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
 
 .titulo {
     color: white;

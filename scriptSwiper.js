@@ -16,8 +16,8 @@ export default function initSwiper() {
         loop: true,
       },
       1200: {
-        slidesPerView: 3,
-        spaceBetween: 20,
+        slidesPerView: 4,
+        spaceBetween: 10,
         loop: true,
       },
     },

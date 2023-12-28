@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="servicos.css">
     <link rel="stylesheet" href="contato.css">
-
+    <link rel="stylesheet" href="internas.css">
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -25,130 +25,93 @@
 </head>
 
 <body>
-    <div class="bg-main">
+    <div class="bg-telemetria">
 
         <header class="header-bg">
-            <div class="container header">
-                <img class="logo" src="icons/logoM.svg" alt="Logo da ramo ambiental" width="200" height="auto">
-                <nav id="nav" aria-label="primaria" class="menu">
-                    <button class="cor-p4" id="btn-mobile" aria-expanded="false" aria-controls="menu"
-                        aria-haspopup="true" aria-label="Mostrar opções de navegação">
-                        <span id="hamburguer"></span>
-                    </button>
-                    <ul class="header-menu font-2-l" data="menu" id="menu" role="menu">
-                        <li role="menuitem"><a href="#servicos">Serviços</a></li>
-                        <li role="menuitem"><a href="#sobre">Sobre</a></li>
-                        <li role="menuitem"><a href="#contato">Contato</a></li>
-                    </ul>
-                </nav>
+            <div class="container header header-interno">
+                <a href="index.html">
+                    <img class="logo" src="icons/logoM.svg" alt="Logo da ramo ambiental" width="200" height="auto">
+                </a>
             </div>
         </header>
 
-        <main class="container main">
+        <main class="container main main-jornada">
 
 
+        </main>
+    </div>
+
+    <section class="bg-gestao">
+
+        <div class="container conteudo-gestao">
             <h1 class="titulo">
-                inove a maneira de cuidar da sua frota.
+                Telemetria
             </h1>
 
             <p class="paragrafo-main">
-                Tenha acesso a todas as informações necessárias para monitorar suas
-                operações em tempo real e otimizar seu negócio de forma eficiente.
+                Obtenha visibilidade total da sua frota com monitoramento em tempo real. Saiba a localização exata dos
+                veículos, status do motor e muito mais. Tudo isso em uma plataforma única.
             </p>
 
-            <a href="" class="cta">saiba mais</a>
-        </main>
-    </div>
-    <section class="servicos container">
+
+            <div class="lista">
 
 
 
+                <div class="container-lista">
 
-
-        <h2 class="titulo-servicos">Nossos Serviços <span class="estilo-amarelo">.</span></h2>
-        <p class="paragrafo-servicos">Da gestão de jornadas a telemetria, a nossa empresa está dedicada a oferecer os
-            melhores serviços para a sua frota. </p>
-
-
-        <div class="cards">
-
-            <div class="card card1">
-                <a href="./jornada.html">
-                    <div class="container-img">
-                        <img src="./img/vermelho-mobile.jpg" alt="gestão de jornada" loading="lazy">
+                    <div class="conteudo-lista">
+                        <h2 class="titulo-lista">Faixas de Condução</h2>
+                        <ul>
+                            <li>Comportamento Seguro</li>
+                            <li>Excesso de Motor Ocioso</li>
+                            <li>Alta rotação</li>
+                            <li>Controle Total da Frota</li>
+                        </ul>
                     </div>
-                    <div class="details">
-                        <h3>Gestão de Jornada</h3>
-                        <p> Nossa solução atende às exigências da Lei do Motorista, permitindo o
-                            controle preciso da jornada. Relatórios personalizados fornecem uma
-                            visão detalhada das informações de acordo com suas necessidades e requisitos.
-                        </p>
+
+
+                    <div class="img-lista">
+                        <img src="./img/faixas.jpg" alt="">
                     </div>
-                </a>
+
+
+                </div>
+
+                <div class="container-lista">
+
+                    <div class="img-lista">
+                        <img src="./img/mapa.jpeg" alt="">
+                    </div>
+
+                    <div class="conteudo-lista conteudo-right">
+                        <h2 class="titulo-lista">mapa de veiculos</h2>
+                        <ul>
+                            <li>Localização em Tempo Real da Frota</li>
+                            <li>Status da Frota</li>
+                            <li>Localização de Infrações</li>
+                            <li>Consumo, Média, Distância Percorrida</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
             </div>
 
-            <div class="card card2">
-                <a href="sistema.html">
-                    <div class="container-img">
-                        <img src="./img/sistem-mobile.jpg" alt="Sistema Personalizável" loading="lazy">
-                    </div>
-                    <div class="details">
-                        <h3>Sistema Personalizável</h3>
-                        <p>
-                            Do controle de manutenção ao gerenciamento de pneus, desenvolvimento de módulos
-                            personalizados de acordo com a sua demanda, a nossa empresa oferece uma solução
-                            abrangente para atender a todas as suas
-                            necessidades.
-                        </p>
-                    </div>
-                </a>
-            </div>
 
-            <div class="card card3">
-                <a href="telemetria.html">
-                    <div class="container-img">
-                        <img src="./img/rastreament-mobile.jpg" alt="gestão de jornada" loading="lazy">
-                    </div>
-                    <div class="details">
-                        <h3>Telemetria</h3>
-                        <p>
-                            Integrando-se perfeitamente aos principais sistemas de rastreamento, proporcionamos acesso a
-                            informações em tempo real que abrangem dados cruciais, como localização, consumo, desempenho
-                            e
-                            infrações. Tudo isso é centralizado em uma plataforma única.
-                        </p>
-                    </div>
-                </a>
-            </div>
+
 
 
         </div>
-
-
+        </div>
 
     </section>
 
+
     <section class="parceiros">
         <div class="container">
-
-
-            <div class="contador" data-anime="scroll">
-                <div class="container-numero container-truck">
-                    <span> +<span data-numero="2000">2000</span></span>
-                    <p>Veículos analizados todos os dias</p>
-                </div>
-                <div class="container-numero">
-                    <span> +<span data-numero="20">20</span></span>
-                    <p>Clientes satisfeitos</p>
-                </div>
-
-                <div class="container-numero">
-                    <span> +<span data-numero="15">15</span></span>
-                    <p>Módulos exclusivos</p>
-                </div>
-
-            </div>
-
 
 
             <div class="swiper swiperParceiros">
