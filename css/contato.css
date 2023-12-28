@@ -91,7 +91,7 @@
     display: block;
     width: 15px;
     height: 15px;
-    background: red;
+    background: #f00;
     border: 2px solid black;
     border-radius: 100%;
 }
