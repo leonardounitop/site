@@ -179,18 +179,15 @@ a {
     font-size: 3.5rem;
 }
 
-
 .conteudo-gestao ul {
     color: white;
     font-size: 1.5rem;
 }
 
-
 .conteudo-gestao li::before {
     content: "";
     display: block;
 }
-
 
 .conteudo-gestao li+li {
     margin-top: 12px;
@@ -211,7 +208,6 @@ a {
     background: #fff;
     margin-top: 12px;
 }
-
 
 .container-lista {
     margin-top: 40px;
@@ -281,7 +277,6 @@ a {
     }
 }
 
-
 .main {
     padding-top: 200px;
     padding-left: 40px;
@@ -296,7 +291,6 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
 
 .cta {
     margin-top: 20px;
@@ -373,7 +367,6 @@ a {
     filter: drop-shadow(12px 5px 4px #000);
 }
 
-
 .ativo.bg-loader {
     background: white;
     height: 100vh;
@@ -388,7 +381,6 @@ a {
     gap: 20px;
 }
 
-
 .loader {
     width: 48px;
     height: 48px;
@@ -399,6 +391,7 @@ a {
     box-sizing: border-box;
     animation: rotation 1s linear infinite;
 }
+
 
 @keyframes rotation {
     0% {
