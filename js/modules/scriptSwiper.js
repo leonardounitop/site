@@ -4,7 +4,7 @@ export default function initSwiper() {
       delay: 1,
       disableOnInteraction: false,
     },
-    speed: 5000,
+    speed: 4000,
     pagination: {
       el: '.swiper-pagination',
     },

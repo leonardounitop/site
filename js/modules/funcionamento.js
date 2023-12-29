@@ -1,4 +1,6 @@
 export default function initFuncionamento() {
+  // Verifica a data da semana. Se tiver entre segunda e sexta e das 8 às 18
+  // ira mudar para verde.
   const funcionamento = document.querySelector('[data-semana]');
   if (funcionamento) {
     const diasSemana = funcionamento.dataset.semana.split(',').map(Number);

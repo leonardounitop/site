@@ -1,6 +1,8 @@
 export default function initAnimaScroll() {
   const contents = document.querySelectorAll('[data-anime="scroll"]');
 
+  // Funcao utilizada tambem como auxiliar para o anima numero.
+
   if (contents.length) {
     const windowMetade = window.innerHeight * 0.8;
 
