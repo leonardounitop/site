@@ -616,6 +616,10 @@ a {
         background-attachment: initial;
     }
 
+    .container-lista li {
+        font-size: 0.875rem;
+    }
+
 }
 
 .estilo-amarelo {
