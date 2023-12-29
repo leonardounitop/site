@@ -1,5 +1,5 @@
 export default function initLoader() {
-  window.addEventListener('load', () => {
+  window.addEventListener('DOMContentLoaded', () => {
     const bgLoader = document.querySelector('.bg-loader');
     const titulo = document.querySelector('.titulo');
     const paragrafoMain = document.querySelector('.paragrafo-main');
