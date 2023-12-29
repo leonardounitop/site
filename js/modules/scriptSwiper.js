@@ -4,7 +4,7 @@ export default function initSwiper() {
       delay: 1,
       disableOnInteraction: false,
     },
-    speed: 6000,
+    speed: 5000,
     pagination: {
       el: '.swiper-pagination',
     },
@@ -16,7 +16,7 @@ export default function initSwiper() {
         loop: true,
       },
       1200: {
-        slidesPerView: 4,
+        slidesPerView: 5,
         spaceBetween: 10,
         loop: true,
       },

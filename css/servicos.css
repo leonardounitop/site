@@ -158,8 +158,6 @@ body {
     margin-bottom: 40px;
 }
 
-
-
 /* 
 .container-truck::before {
     content: "";
@@ -169,8 +167,6 @@ body {
     display: block;
     place-self: center;
 } */
-
-
 
 .ativo.bg-loader {
     background: white;
