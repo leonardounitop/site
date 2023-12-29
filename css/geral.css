@@ -135,6 +135,12 @@ a {
     background-size: cover;
 }
 
+.bg-gestaoo {
+    background: url(../img/bg-gestao.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
 
 
 .titulo {
