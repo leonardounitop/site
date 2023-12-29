@@ -36,9 +36,6 @@ export default function initAnimaNumeros() {
 
       const observerTarget = document.querySelector('.contador');
       const observer = new MutationObserver(handleMutation);
-
-      console.log(observerTarget);
-
       observer.observe(observerTarget, { attributes: true });
     }
   }
