@@ -66,6 +66,14 @@ a {
     flex-wrap: wrap;
     gap: 20px;
     flex-shrink: 1;
+    position: relative;
+}
+
+
+.btn-home {
+    position: absolute;
+    left: 20px;
+    padding: 20px;
 }
 
 
@@ -247,6 +255,11 @@ a {
 }
 
 
+
+
+
+
+
 @keyframes animaDown {
     from {
         opacity: 0;
@@ -369,8 +382,14 @@ a {
 }
 
 
-.logo {
+.logo,
+.btn-home {
     filter: drop-shadow(12px 5px 4px #000);
+}
+
+
+.btn-home {
+    filter: drop-shadow(1px 1px 0.2rem #f0f9ff);
 }
 
 .ativo.bg-loader {
